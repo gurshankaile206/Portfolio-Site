@@ -27,8 +27,40 @@ img {
     padding: 40px;
     width: 25%;
     display: block;
-    border-radius: 8px;
+    border-radius: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+.about {
+    width: 50%;
+    border: solid black;
+    border-width: 1px; 
+    background-color: whitesmoke;
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    padding: 3px;
+    font-size: 10px;
+}
+
+ul {
+    padding: 3px;
+    list-style-position: inside;
+    font-size: 15px;
+}
+
+li {
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
 }
