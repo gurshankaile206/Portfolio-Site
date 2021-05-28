@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     font-size: 40px;
-    
+    background-color: teal;
 }
 
 .heading {
     width: 50%;
     border: solid black;
     border-width: 1px; 
-    background-color: whitesmoke;
+    background-color: teal;
     margin-bottom: 10px; 
     box-sizing: border-box;
     text-align: center;
@@ -58,9 +58,28 @@ ul {
     font-size: 15px;
 }
 
+ol {
+    list-style-position: inside;
+}
+
 li {
     padding: 2px;
     margin-left: auto;
     margin-right: auto;
     font-size: 10px;
 }
+
+.projects {
+    width: 50%;
+    border: solid black;
+    border-width: 1px; 
+    background-color: whitesmoke;
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
